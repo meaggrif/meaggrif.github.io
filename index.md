@@ -10,12 +10,12 @@ Below are some projects I have been working on with regards to my fields of stud
 
 ```markdown
 
-# Technica - [Causal Analytics for Smart Manufacturing] (https://devpost.com/software/causality-analytics-for-smart-manufacturing?flow%5Bdata%5D%5Binvitation_key%5D=9Z1FJdp_12fGsvyKYm_Q&flow%5Bname%5D=accept_software_invitation&ref_content=new_user_added_to_software_team&ref_feature=portfolio&ref_medium=email&utm_campaign=software&utm_content=invitation_to_join_software_team&utm_medium=email&utm_source=transactional)
+1. **Technica - Causal Analytics for Smart Manufacturing** 
 
-- As a participant in the Tech + Research Workshop at the 2018 Technica Women's Hackathon, I conducted data analysis using the VAR library in Python and Granger Causality method.
+- As a participant in the Tech + Research Workshop at the 2018 Technica Women's Hackathon, I conducted data analysis using the [VAR library in Python and Granger Causality method] (https://devpost.com/software/causality-analytics-for-smart-manufacturing?flow%5Bdata%5D%5Binvitation_key%5D=9Z1FJdp_12fGsvyKYm_Q&flow%5Bname%5D=accept_software_invitation&ref_content=new_user_added_to_software_team&ref_feature=portfolio&ref_medium=email&utm_campaign=software&utm_content=invitation_to_join_software_team&utm_medium=email&utm_source=transactional).
 - My team and I determined how to find causal relationships between variables in time series data sets.
 
-# Critical Period Horomone Research
+2. **Critical Period Horomone Research**
 
 - I am currently creating a proposal for a linguistic study regarding the novel theory regarding a critcal period for language.
 - Essentially, the study will be examining whether or not, assuming the critical period theory is true, the timing of the critical period occuring before/at the onset is related to hormones.
