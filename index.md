@@ -1,37 +1,32 @@
-## Welcome to GitHub Pages
+## Welcome to My GitHub Page
 
-You can use the [editor on GitHub](https://github.com/meaggrif/meaggrif.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+I am an [Information Science major](https://ischool.umd.edu/infosci) at the University of Maryland.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Outside of Information Science, I enjoy doing research in [linguistics](http://ling.umd.edu/), which I am pursuing as a minor.
 
-### Markdown
+### Data Science & Linguistic Projects
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Below are some projects I have been working on with regards to my fields of study.
 
 ```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+# Technica - [Causal Analytics for Smart Manufacturing] (https://devpost.com/software/causality-analytics-for-smart-manufacturing?flow%5Bdata%5D%5Binvitation_key%5D=9Z1FJdp_12fGsvyKYm_Q&flow%5Bname%5D=accept_software_invitation&ref_content=new_user_added_to_software_team&ref_feature=portfolio&ref_medium=email&utm_campaign=software&utm_content=invitation_to_join_software_team&utm_medium=email&utm_source=transactional)
 
-- Bulleted
-- List
+- As a participant in the Tech + Research Workshop at the 2018 Technica Women's Hackathon, I conducted data analysis using the VAR library in Python and Granger Causality method.
+- My team and I determined how to find causal relationships between variables in time series data sets.
 
-1. Numbered
-2. List
+# Critical Period Horomone Research
 
-**Bold** and _Italic_ and `Code` text
+- I am currently creating a proposal for a linguistic study regarding the novel theory regarding a critcal period for language.
+- Essentially, the study will be examining whether or not, assuming the critical period theory is true, the timing of the critical period occuring before/at the onset is related to hormones.
+- The research would include experiments with subjects undergoing T-therapy and those who are not to see if there is a difference in performance in acquisition tasks that those outside of the critical period seem to fail.
 
-[Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Other Interests
 
-### Jekyll Themes
+Outside of academia, one of my passions is music. I am the Community Outreach and Media Director for the Terrapin Record Label, as well as a signed artist! I recently released an EP and play shows frequently at MilkBoy Arthouse.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/meaggrif/meaggrif.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Contact
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+For more information on my studies and to get in touch, I can be reached by email at meaggrif@umd.edu.
