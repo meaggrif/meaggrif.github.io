@@ -12,7 +12,7 @@ Below are some projects I have been working on with regards to my fields of stud
 
 1. **Technica - Causal Analytics for Smart Manufacturing** 
 
-- As a participant in the Tech + Research Workshop at the 2018 Technica Women's Hackathon, I conducted data analysis using the [VAR library in Python and Granger Causality method] (https://devpost.com/software/causality-analytics-for-smart-manufacturing?flow%5Bdata%5D%5Binvitation_key%5D=9Z1FJdp_12fGsvyKYm_Q&flow%5Bname%5D=accept_software_invitation&ref_content=new_user_added_to_software_team&ref_feature=portfolio&ref_medium=email&utm_campaign=software&utm_content=invitation_to_join_software_team&utm_medium=email&utm_source=transactional).
+- As a participant in the Tech + Research Workshop at the 2018 Technica Women's Hackathon, I conducted data analysis using the [VAR library in Python and Granger Causality method](https://devpost.com/software/causality-analytics-for-smart-manufacturing?flow%5Bdata%5D%5Binvitation_key%5D=9Z1FJdp_12fGsvyKYm_Q&flow%5Bname%5D=accept_software_invitation&ref_content=new_user_added_to_software_team&ref_feature=portfolio&ref_medium=email&utm_campaign=software&utm_content=invitation_to_join_software_team&utm_medium=email&utm_source=transactional).
 - My team and I determined how to find causal relationships between variables in time series data sets.
 
 2. **Critical Period Horomone Research**
