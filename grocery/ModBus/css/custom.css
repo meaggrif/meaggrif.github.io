@@ -1,0 +1,56 @@
+.whole-page{
+    height: 100vh !important;
+    overflow: auto !important;
+}
+
+.navbar-custom {
+    background-color: rgb(255, 153, 153)!important;
+    height: 10vh !important;
+    margin-bottom: 40px !important;
+    margin-top: -60px !important;
+    position: relative;
+}
+
+.brand-custom {
+    font-size: 30pt !important;
+    color: white!important;
+    padding-left: 5px !important;
+}
+
+.item-custom {
+    font-size: 20pt !important;
+    color:white!important;
+}
+
+.lead-custom{
+    font-size: 20pt !important;
+}
+
+.container-custom {
+    height: 100vh !important;
+    margin-bottom: 45vh !important;
+}
+
+.jumbo-custom {
+    text-align: center !important;
+    padding-top: 200px !important;
+    background: url('../img/jakub-kapusnak-sDbj1dFlFPU-unsplash.jpg') !important;
+    background-repeat: none !important;
+    background-size: cover !important;
+}
+
+.card-custom{
+    background-color: rgb(255, 153, 153)!important;
+    color: white !important;
+}
+
+.cardbod-custom{
+    font-size: 15pt;
+    background-color: rgb(230, 242, 255);
+}
+
+.store-custom{
+    height: 30vh !important;
+    width: 75vh !important;
+}
+
