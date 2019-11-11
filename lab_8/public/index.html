@@ -25,7 +25,10 @@
           console.log(res); // logging step to check what we got
           return res;
         })
+        /* this calls the instArray object by its key (instArray) so we can access 
+        the array in the object that we created in line 54 in the server.js file*/
         .then(res => res.instArray)
+        // this calls the function that inserts the array into the html as an unordered list
         .then(codes => makeListInHTML(codes)); 
     };
 

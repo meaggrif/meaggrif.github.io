@@ -44,11 +44,17 @@ app.use(express.static('public'));
 app.get('/api', (req, res) => {
   const baseURL = 'https://api.umd.io/v0/courses/list';
   fetch(baseURL)
+    // converts the api info to json
     .then((r) => r.json())
+    // data is just the array that was created with .json
     .then((data) => {
+      // this filters for INST in the data array
       const courseArray = data.filter((f) => f.course_id.includes('INST'));
+      // this restructures the array line by line to create the format we want
       const instArray = courseArray.map((c) => `${c.course_id}: ${c.name}`);
+      // this sends the instArray, aka the response, to the client to be fetched
       res.send({ instArray: instArray });
+      // console.log here logs the response on the terminal
       console.log(instArray);
     })
     .catch((err) => {
