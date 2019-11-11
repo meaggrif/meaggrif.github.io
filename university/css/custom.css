@@ -1,3 +1,31 @@
+.navbar-custom {
+    background-color: rgb(255, 204, 0)!important;
+    height: 10vh !important;
+    margin-bottom: 40px !important;
+    margin-top: -60px !important;
+    position: relative;
+}
+
+.brand-custom {
+    font-size: 30pt !important;
+    color: black !important;
+    padding-left: 5px !important;
+}
+
+.item-custom {
+    font-size: 20pt !important;
+    color:black !important;
+}
+
+.breadcrumb-custom{
+    background-color: rgb(0, 0, 102) !important;
+    color: white !important;
+}
+
+.text-custom{
+    color: white !important;
+}
+
 .card-custom{
     background-color: white !important;
     color: black !important;
