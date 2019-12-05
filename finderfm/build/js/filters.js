@@ -152,7 +152,6 @@ function filterMarkets() {
   const paymentFiltered = filterPayment(daysFiltered);
   const productsFiltered = filterProducts(paymentFiltered);
   renderMarkets(productsFiltered);
-  //renderMap(productsFiltered);
 }
 
 function filterDaysOfWeek(markets) {
