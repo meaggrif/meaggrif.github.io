@@ -13,13 +13,13 @@
 
 .brand-custom {
     font-size: 30pt !important;
-    color: white!important;
+    color: black!important;
     padding-left: 5px !important;
 }
 
 .item-custom {
     font-size: 20pt !important;
-    color:white!important;
+    color:black!important;
 }
 
 .lead-custom{
@@ -41,7 +41,7 @@
 
 .card-custom{
     background-color: rgb(255, 153, 153)!important;
-    color: white !important;
+    color: black !important;
 }
 
 .cardbod-custom{
@@ -52,5 +52,9 @@
 .store-custom{
     height: 30vh !important;
     width: 75vh !important;
+}
+
+.bread-custom{
+    color: black;
 }
 
