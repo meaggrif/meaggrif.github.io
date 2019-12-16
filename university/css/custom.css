@@ -61,3 +61,10 @@
 .custom-footer{
     margin-top:80px;
 }
+
+.j-custom{
+    width: 700px;
+    background-color: black;
+    padding: 20px;
+    margin: auto;
+}
