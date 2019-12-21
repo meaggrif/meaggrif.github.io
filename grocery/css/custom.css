@@ -59,3 +59,13 @@
 li.breadcrumb-item.active.bread-custom::before {
     color: black !important;
 }
+
+a.skip-main {
+    left:-999px;
+    position:absolute;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+    z-index:-999;
+}
