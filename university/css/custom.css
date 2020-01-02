@@ -78,3 +78,22 @@ a.skip-main {
     overflow:hidden;
     z-index:-999;
 }
+
+.ball-footer-custom{
+    position:absolute;
+   bottom:0;
+   width:100%;
+}
+
+.footer-custom{
+    margin-top: 15px;
+}
+
+.card-img-custom{
+    height: 150px !important;
+}
+
+.finaid-custom{
+    width: 350px !important;
+    height: 350px !important;
+}
