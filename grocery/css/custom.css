@@ -1,71 +1,80 @@
-.whole-page{
-    height: 100vh !important;
-    overflow: auto !important;
+.whole-page {
+  height: 100vh !important;
+  overflow: auto !important;
 }
 
 .navbar-custom {
-    background-color: rgb(255, 153, 153)!important;
-    height: 10vh !important;
-    margin-bottom: 40px !important;
-    margin-top: -60px !important;
-    position: relative;
+  background-color: rgb(255, 153, 153) !important;
+  height: 10vh !important;
+  margin-bottom: 40px !important;
+  margin-top: -60px !important;
+  position: relative;
 }
 
 .brand-custom {
-    font-size: 30pt !important;
-    color: black!important;
-    padding-left: 5px !important;
+  font-size: 30pt !important;
+  color: black !important;
+  padding-left: 5px !important;
 }
 
 .item-custom {
-    font-size: 20pt !important;
-    color:black!important;
+  font-size: 20pt !important;
+  color: black !important;
 }
 
-.lead-custom{
-    font-size: 20pt !important;
+.lead-custom {
+  font-size: 20pt !important;
 }
 
 .container-custom {
-    height: 100vh !important;
-    margin-bottom: 45vh !important;
+  height: 100vh !important;
+  margin-bottom: 45vh !important;
 }
 
 .jumbo-custom {
-    text-align: center !important;
-    padding-top: 200px !important;
-    background: url('../img/jakub-kapusnak-sDbj1dFlFPU-unsplash.jpg') !important;
-    background-repeat: none !important;
-    background-size: cover !important;
+  text-align: center !important;
+  padding-top: 200px !important;
+  background: url('../img/jakub-kapusnak-sDbj1dFlFPU-unsplash.jpg') !important;
+  background-repeat: none !important;
+  background-size: cover !important;
 }
 
-.card-custom{
-    background-color: rgb(255, 153, 153)!important;
+.card-custom {
+  background-color: rgb(255, 153, 153) !important;
 }
 
-.cardbod-custom{
-    font-size: 15pt;
-    background-color: rgb(230, 242, 255);
+.cardbod-custom {
+  font-size: 15pt;
+  background-color: rgb(230, 242, 255);
 }
 
-.store-custom{
-    height: 30vh !important;
-    width: 75vh !important;
+.store-custom {
+  height: 30vh !important;
+  width: 75vh !important;
 }
 
-.bread-custom{
-    color: black !important;
+.bread-custom {
+  color: black !important;
 }
 li.breadcrumb-item.active.bread-custom::before {
-    color: black !important;
+  color: black !important;
 }
 
 a.skip-main {
-    left:-999px;
-    position:absolute;
-    top:auto;
-    width:1px;
-    height:1px;
-    overflow:hidden;
-    z-index:-999;
+  left: -999px;
+  position: absolute;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  z-index: -999;
+}
+
+.footer-custom {
+  width: 100% !important;
+  margin-top: 15px !important;
+}
+
+.card-img-custom {
+  height: 175px;
 }
