@@ -53,30 +53,44 @@
             <li class="nav-item">
               <a class="nav-link item-custom" href="products.html">Products</a>
             </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle item-custom"
+                role="link"
+                aria-haspopup="true"
+                aria-expanded="false"
+                data-toggle="dropdown"
+                href="#"
+                id="navbarDropdownPortfolio"
+              >
+                Departments
+              </a>
+              <ul
+                role="menu"
+                class="dropdown-menu dropdown-menu-right"
+                aria-label="Departments"
+              >
+                <li role="none">
+                  <a role="menuitem" class="dropdown-item" href="bakery.html">
+                    Bakery
+                  </a>
+                </li>
+                <li role="none">
+                  <a role="menuitem" class="dropdown-item" href="florist.html">
+                    Florist
+                  </a>
+                </li>
+                <li role="none">
+                  <a role="menuitem" class="dropdown-item" href="pharmacy.html">
+                    Pharmacy
+                  </a>
+                </li>
+              </ul>
+            </li>
             <li class="nav-item">
               <a class="nav-link item-custom" href="locations.html"
                 >Find A Store</a
               >
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle item-custom"
-                href="#"
-                id="navbarDropdownPortfolio"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                Departments
-              </a>
-              <div
-                class="dropdown-menu dropdown-menu-right"
-                aria-labelledby="navbarDropdownPortfolio"
-              >
-                <a class="dropdown-item" href="bakery.html">Bakery</a>
-                <a class="dropdown-item" href="florist.html">Florist</a>
-                <a class="dropdown-item" href="pharmacy.html">Pharmacy</a>
-              </div>
             </li>
           </ul>
         </div>
@@ -95,7 +109,7 @@
       <small>Hours</small>
     </h1>
 
-    <ol class="breadcrumb card-custom">
+    <ol role="navigation" aria-label="breadcrumb" class="breadcrumb card-custom">
       <li class="breadcrumb-item bread-custom">
         <a href="locations.html">Locations</a>
       </li>
@@ -103,13 +117,13 @@
     </ol>
 
     <!-- Content Row -->
-    <div class="row">
+    <div role="main" class="row">
       <div class="col-lg-4 mb-4">
         <div class="card h-100">
           <h3 class="card-header card-custom">Weekday Hours</h3>
           <div class="card-body cardbod-custom">
               <div class="card-body">
-                  <ul class="list-group list-group-flush">
+                  <ul role="region" aria-label="Weekday Hours at Edgewater" class="list-group list-group-flush">
                       <li class="list-group-item">Monday 8:00AM - 9:00PM</li>
                       <li class="list-group-item">Tuesday 8:00AM - 9:00PM</li>
                       <li class="list-group-item">Wednesday 8:00AM - 9:00PM</li>
@@ -124,7 +138,7 @@
         <div class="card card-outline-primary h-100">
           <h3 class="card-header card-custom">Weekend Hours</h3>
           <div class="card-body cardbod-custom">
-              <ul class="list-group list-group-flush">
+              <ul role="region" aria-label="Weekend Hours at Edgewater" class="list-group list-group-flush">
                   <li class="list-group-item">Saturday 10:00AM - 9:00PM</li>
                   <li class="list-group-item">Sunday 10:00AM - 5:00PM</li>
               </ul>
@@ -136,7 +150,7 @@
           <h3 class="card-header card-custom">Holiday Hours</h3>
           <div class="card-body cardbod-custom">
           <ul class="list-group list-group-flush">
-            <ul class="list-group list-group-flush">
+            <ul role="region" aria-label="Holiday Hours at Edgewater" class="list-group list-group-flush">
               <li class="list-group-item">Monday through Thursday 8:00AM - 12:00PM</li>
               <li class="list-group-item">Friday 10:00AM - 12:00PM</li>
               <li class="list-group-item">Saturday closed</li>
@@ -158,7 +172,7 @@
       <p class="m-0 text-center text-white">
         Copyright &copy; Your Website 2019
       </p>
-      <a
+      <a hidden
         aria-hidden="true"
         href="https://icons8.com/icon/3380/vegetarian-food"
         >Vegetarian Food icon by Icons8</a
