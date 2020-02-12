@@ -93,3 +93,16 @@ a.skip-main {
     width: 350px !important;
     height: 350px !important;
 }
+
+.button-custom{
+    background-color: rgb(46, 92, 184)!important;
+    border-color:rgb(46, 92, 184)!important;
+}
+
+.logo-custom{
+    height: 50px;
+}
+
+.heading-custom{
+    font-size: 16pt !important;
+}
