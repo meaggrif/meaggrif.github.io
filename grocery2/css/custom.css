@@ -78,3 +78,16 @@ a.skip-main {
 .card-img-custom {
   height: 175px;
 }
+
+.logo-custom {
+  height: 50px;
+}
+
+.button-custom {
+  background-color: rgb(121, 210, 121) !important;
+  border-color: rgb(121, 210, 121) !important;
+}
+
+.heading-custom {
+  font-size: 18pt;
+}

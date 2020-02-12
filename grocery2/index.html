@@ -8,7 +8,7 @@
     />
     <meta
       name="description"
-      content="A website for the grocery store 'Great Grocery'"
+      content="Great Grocery website"
     />
     <meta name="author" content="Meagan Griffith" />
 
@@ -32,73 +32,57 @@
   <body class="whole-page">
     <a class="skip-main" href="#">Skip to main content</a>
     <!-- Navigation -->
-    <nav
+    <div
     class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top navbar-custom"
-  >
+    >
     <div class="container">
       <img src="https://img.icons8.com/ios/50/000000/vegan-food.png" />
-      <a class="navbar-brand brand-custom" href="index.html">Great Grocery</a>
-      <button
-        class="navbar-toggler navbar-toggler-right"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarResponsive"
-        aria-controls="navbarResponsive"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
+      <a class="navbar-brand brand-custom" href="index.html"><img class="logo-custom" src="img/850zkwyf-logo.png"></a>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <img><a class="nav-link item-custom" href="index.html">Home</a></img>
+            <button class="nav-link item-custom button-custom" onclick="window.location.href='index.html'">Home</button>
           </li>
           <li class="nav-item">
-            <img><a class="nav-link item-custom" href="products.html">Products</a></img>
+            <button class="nav-link item-custom button-custom" onclick="window.location.href='products.html'">Products</button>
           </li>
-          <li class="nav-item dropdown">
-            <img><a 
+          <li class="nav-item dropdown" aria-label="menu">
+            <a 
               class="nav-link dropdown-toggle item-custom"
-               aria-expanded="false"
                data-toggle="dropdown"
                id="navbarDropdownPortfolio"
+               aria-hidden="true"
                >
               More
-            </a></img>
-            <ul class="dropdown-menu dropdown-menu-right" aria-label="more">
-              <li role="none">
-                <img><a 
+            </a>
+            <div class="dropdown-menu dropdown-menu-right">
+                <a 
+                  aria-label="rewards"
                   class="dropdown-item"
                    href="loyalty.html">
                   Rewards Program
-                </a></img>
-              </li>
-              <li role="none">
-                <img><a 
+              </a>
+                <a 
                 class="dropdown-item"
                    href="coupons.html"
                   >
                   Coupons
-                </a></img>
-              </li>
-              <li role="none">
-                <img><a 
+                </a>
+                <a 
                 class="dropdown-item"
                    href="recipes.html"
                   >
                   Recipes
-                </a></img>
-              </li>
-            </ul>
+                </a>
+            </div>
           </li>
           <li class="nav-item">
-            <img><a class="nav-link item-custom" href="locations.html">Find A Store</a></img>
+            <button class="nav-link item-custom button-custom" onclick="window.location.href='locations.html'">Find A Store</button>
           </li> 
         </ul>
       </div>
-    </div>
-  </nav>
+     </div> 
+  </div>
   
     <div class="container" id="main" tabindex="-1">
       <!-- The main page content -->
@@ -108,7 +92,7 @@
         <header
           class="jumbotron my-4 jumbo-custom"
         >
-          <h1 class="display-3">Hello </br> from Great Grocery!</h1>
+          <p class="display-3">Hello </br> from Great Grocery!</p>
           <p aria-hidden="true" class="lead lead-custom">
             Great Grocery carries a variety of products <br />
             that are guaranteed to be fresh and tasty. <br />
@@ -120,13 +104,13 @@
           >
         </header>
 
-        <h1 class="my-4">Explore Our Departments!</h1>
+        <p class="my-4 heading-custom">Explore Our Departments!</p>
 
         <!-- Marketing Icons Section -->
         <div class="row row-custom">
           <div class="col-lg-4 mb-4">
             <div class="card h-100">
-              <h4 class="card-header card-custom">Pharmacy</h4>
+              <p class="card-header card-custom heading-custom">Pharmacy</p>
               <div class="card-body cardbod-custom">
                 <p class="card-text">
                 The Great Grocery Pharmacy is just the right place for afforable prescriptions!  
@@ -143,7 +127,7 @@
           </div>
           <div class="col-lg-4 mb-4">
             <div class="card h-100">
-              <h4 class="card-header card-custom">Florist</h4>
+              <p class="card-header card-custom heading-custom">Florist</p>
               <div class="card-body cardbod-custom">
                 <p class="card-text">
                   Let us provide beautiful floral arrangements for your next event!
@@ -156,7 +140,7 @@
           </div>
           <div class="col-lg-4 mb-4">
             <div class="card h-100">
-              <h4 class="card-header card-custom">Bakery</h4>
+              <p class="card-header card-custom heading-custom">Bakery</p>
               <div class="card-body cardbod-custom">
                 <p class="card-text">
                   From muffins to decorative cakes, you'll be sure to find a variety of treats at the bakery!
