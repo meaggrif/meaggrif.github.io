@@ -7,8 +7,3 @@ This was a group project completed in Fall 2019. It is a website that helps user
 ## Market Search Page: 
 [Find A Farmer's Market](https://finderfm.netlify.app/find.html)
 
-## User Manual:
-[User Manual](docs/user_manual.md)
-
-## Developer Manual:
-[Developer Manual](docs/developer_manual.md)
